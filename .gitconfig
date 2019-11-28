@@ -2,6 +2,7 @@
   ci = commit
   co = checkout
   cm = checkout master
+  cd = !(git checkout dev && git pull origin dev)
   cb = checkout -b
   st = status -sb
   sf = show --name-only
